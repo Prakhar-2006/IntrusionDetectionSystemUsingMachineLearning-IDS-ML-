@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | NexHire Consultancy UK</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- JAVASCRIPT -->
+  <script src="script.js" defer></script>
+</head>
+
+<body class="page-about">
+
+<!-- NAVBAR -->
+<nav>
+  <div class="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <div class="logo-section">
+    <h2>NexHire<span>UK</span></h2>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="about.html" class="active"><i class="fas fa-user"></i> About us</a></li>
+    <li><a href="services.html"><i class="fas fa-cog"></i> Our Services</a></li>
+    <li><a href="testimonials.html"><i class="fas fa-star"></i> Testimonials</a></li>
+    <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+    <li class="nav-contact-mobile"><a href="contact.html"><i class="fas fa-envelope"></i> Contact us</a></li>
+  </ul>
+
+  <div class="nav-cta">
+    <a href="contact.html">
+      <button class="btn-primary"><i class="fas fa-envelope"></i> Contact us</button>
+    </a>
+  </div>
+</nav>
+<!-- ABOUT HEADER -->
+<header class="small-header">
+
+  <!-- Background Image -->
+  <div class="bg-image"></div>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Content -->
+  <div class="small-header-content">
+
+    <div class="about-intro">
+
+      <h1>
+        <i class="fas fa-handshake"></i>
+        About Us
+      </h1>
+
+      <h2>
+        <i class="fas fa-lightbulb"></i>
+        Built for people who needed it most
+      </h2>
+
+      <p>
+        NexHire Consultancy UK was founded with a clear purpose:
+        we saw too many international students and professionals
+        navigating the job market alone — without the right guidance,
+        the right tools, or anyone in their corner.
+      </p>
+
+      <p>
+        Backed by 5+ years of recruitment experience,
+        we help candidates stand out, secure interviews,
+        and land the roles they deserve.
+      </p>
+
+    </div>
+
+  </div>
+
+</header>
+
+<style>
+
+/* =========================
+ABOUT HEADER
+========================= */
+
+.small-header{
+  position: relative;
+  width: 100%;
+  min-height: 75vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5%;
+}
+
+/* Background Image */
+.bg-image{
+  position: absolute;
+  inset: 0;
+  background-image: url("background.jpg/ABOUT US.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+/* Dark Overlay */
+.overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 2;
+}
+
+/* Content */
+.small-header-content{
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 950px;
+  text-align: center;
+}
+
+/* Glass Box */
+.about-intro{
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Main Heading */
+.about-intro h1{
+  font-size: 52px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 800;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+
+/* Sub Heading */
+.about-intro h2{
+  font-size: 28px;
+  color: #ffd700;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Paragraphs */
+.about-intro p{
+  font-size: 17px;
+  line-height: 1.9;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+  .small-header{
+    min-height: 70vh;
+    padding: 40px 20px;
+  }
+
+  .about-intro{
+    padding: 30px 22px;
+  }
+
+  .about-intro h1{
+    font-size: 36px;
+  }
+
+  .about-intro h2{
+    font-size: 22px;
+  }
+
+  .about-intro p{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+}
+
+</style>
+
+<section class="why-us">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 60px;"><i class="fas fa-check-circle"></i> Our Mission & Values</h2>
+    
+    <div class="stats-section">
+      <div class="stat">
+        <i class="fas fa-award"></i>
+        <h3>5+</h3>
+        <p>Years of recruitment experience</p>
+      </div>
+      <div class="stat">
+        <i class="fas fa-globe"></i>
+        <h3>5</h3>
+        <p>Countries we place candidates in</p>
+      </div>
+      <div class="stat">
+        <i class="fas fa-handshake"></i>
+        <h3>100%</h3>
+        <p>Personalised career support</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section benefits-section">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 50px;"><i class="fas fa-star"></i> Why Choose NexHire</h2>
+    
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <i class="fas fa-brain"></i>
+        <h3>Expert Knowledge</h3>
+        <p>Our team consists of seasoned recruitment professionals with deep understanding of global job markets, including UK, UAE, Canada, and Australia.</p>
+      </div>
+
+      <div class="benefit-card">
+        <i class="fas fa-rocket"></i>
+        <h3>Proven Results</h3>
+        <p>We have successfully placed hundreds of professionals in their dream roles, with clients securing positions within weeks of joining our program.</p>
+      </div>
+
+      <div class="benefit-card">
+        <i class="fas fa-users"></i>
+        <h3>Personalized Approach</h3>
+        <p>We don't believe in one-size-fits-all solutions. Every client receives customized support tailored to their unique career goals and circumstances.</p>
+      </div>
+
+      <div class="benefit-card">
+        <i class="fas fa-code"></i>
+        <h3>Modern Tools</h3>
+        <p>We use cutting-edge technology and ATS-optimized techniques to ensure your applications get noticed by recruiters.</p>
+      </div>
+
+      <div class="benefit-card">
+        <i class="fas fa-clock"></i>
+        <h3>Ongoing Support</h3>
+        <p>Our relationship doesn't end at placement. We provide continuous career guidance and support to ensure long-term success.</p>
+      </div>
+
+      <div class="benefit-card">
+        <i class="fas fa-trophy"></i>
+        <h3>Track Record</h3>
+        <p>Join hundreds of successful professionals who have transformed their careers with NexHire Consultancy UK.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-cta-section">
+  <h2><i class="fas fa-check"></i> Ready to Transform Your Career?</h2>
+  <p>Let's work together to unlock your potential and land the role you deserve.</p>
+  <a href="contact.html">
+    <button class="about-cta-button"><i class="fas fa-rocket"></i> Start Your Career Journey</button>
+  </a>
+</section>
+
+<footer>
+  <div class="container footer-content">
+    <div class="footer-col">
+      <h3><i class="fas fa-briefcase"></i> NexHire Consultancy UK</h3>
+      <p>Your personal career concierge for securing premium roles globally.</p>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> info@nexhireconsultancy.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Liverpool, United Kingdom</p>
+        <p class="social-text">Follow us on our social media:</p>
+        <p class="social-links-text">
+          <a href="https://www.instagram.com/nexhireconsultancyuk/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> | 
+          <a href="https://www.linkedin.com/company/nexhireconsultancyuk/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3><i class="fas fa-link"></i> Quick Links</h3>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> About us</a></li>
+        <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+        <li><a href="testimonials.html"><i class="fas fa-star"></i> Testimonials</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3><i class="fas fa-book"></i> Resources</h3>
+      <ul>
+        <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+        <li><a href="contact.html"><i class="fas fa-phone"></i> Contact us</a></li>
+        <li><a href="privacy-policy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+        <li><a href="terms-of-service.html"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>&copy; 2026 NexHire Consultancy UK. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+
+</html>
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/447345693046" 
+   class="whatsapp-float" 
+   target="_blank">
+   
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>

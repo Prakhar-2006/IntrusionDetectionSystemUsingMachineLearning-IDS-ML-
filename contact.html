@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us - NexHire Consultancy UK</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- JAVASCRIPT -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <div class="logo-section">
+    <h2>NexHire<span>UK</span></h2>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="about.html"><i class="fas fa-user"></i> About Us</a></li>
+    <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+    <li><a href="testimonials.html"><i class="fas fa-star"></i> Testimonials</a></li>
+    <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+  </ul>
+
+  <div class="nav-cta">
+    <a href="contact.html">
+      <button class="btn-primary"><i class="fas fa-envelope"></i> Contact us</button>
+    </a>
+  </div>
+</nav>
+
+  <!-- HEADER -->
+
+  <header class="small-header contact-header">
+
+    <div class="small-header-content">
+      <div class="contact-header-icon"><i class="fas fa-headset"></i></div>
+      <h1><i class="fas fa-address-book contact-title-icon"></i> Contact Us</h1>
+      <p>We're here to help you take the next step in your career.</p>
+      <div class="contact-header-pills">
+        <span><i class="fas fa-clock"></i> 24h reply</span>
+        <span><i class="fas fa-shield-halved"></i> Confidential</span>
+        <span><i class="fas fa-star"></i> Free consultation</span>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- CONTACT HERO -->
+
+  <section class="quick-contact-section contact-channels">
+
+    <div class="container">
+
+      <div class="contact-section-label"><i class="fas fa-comments"></i> Get in Touch</div>
+      <h2>How would you like to reach us?</h2>
+      <p>Choose the best way to connect — our team typically replies within 24 hours.</p>
+
+      <div class="contact-options">
+
+        <div class="contact-option contact-option--email">
+          <div class="contact-option-icon contact-option-icon--email" aria-hidden="true"><i class="fas fa-envelope-open-text"></i></div>
+          <h3><i class="fas fa-at"></i> Email</h3>
+          <p>info@nexhireconsultancy.com</p>
+          <a href="mailto:info@nexhireconsultancy.com" class="contact-link contact-link--email">
+            <i class="fas fa-paper-plane"></i> Send Email
+          </a>
+        </div>
+
+        <div class="contact-option contact-option--whatsapp">
+          <div class="contact-option-icon contact-option-icon--whatsapp" aria-hidden="true"><i class="fab fa-whatsapp"></i></div>
+          <h3><i class="fab fa-whatsapp"></i> WhatsApp</h3>
+          <p>Chat with us directly</p>
+          <a href="https://wa.me/447345693046" class="contact-link contact-link--whatsapp" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> Message Us
+          </a>
+        </div>
+
+        <div class="contact-option contact-option--call">
+          <div class="contact-option-icon contact-option-icon--call" aria-hidden="true"><i class="fas fa-calendar-check"></i></div>
+          <h3><i class="fas fa-phone-volume"></i> Schedule Call</h3>
+          <p>Book a free consultation</p>
+          <a href="#contactForm" class="contact-link contact-link--call">
+            <i class="fas fa-calendar-days"></i> Book Now
+          </a>
+        </div>
+
+      </div>
+
+      <div class="contact-info-bar">
+        <div class="contact-info-bar-item">
+          <i class="fas fa-envelope"></i>
+          <span>info@nexhireconsultancy.com</span>
+        </div>
+        <div class="contact-info-bar-item contact-info-bar-item--social">
+          <a href="https://www.instagram.com/nexhireconsultancyuk/?hl=en" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/nexhireconsultancyuk/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/447345693046" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT FORM -->
+
+  <section class="contact-page">
+
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Send Us a Message</h2>
+
+        <p>
+          Fill in your details and we'll get back to you
+          as soon as possible.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+
+        <div class="form-group">
+          <label>Full Name *</label>
+
+          <input type="text"
+            placeholder="John Doe"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label>Email Address *</label>
+
+          <input type="email"
+            placeholder="john@example.com"
+            required>
+        </div>
+
+        <div class="form-row">
+
+          <div class="form-group">
+
+            <label>WhatsApp Number</label>
+
+            <input type="text"
+              placeholder="+44 7700 000000">
+
+          </div>
+
+          <div class="form-group">
+
+            <label>Company</label>
+
+            <input type="text"
+              placeholder="Your Company">
+
+          </div>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>Subject *</label>
+
+          <input type="text"
+            placeholder="How can we help?"
+            required>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>Message *</label>
+
+          <textarea rows="6"
+            placeholder="Tell us more about your inquiry..."
+            required></textarea>
+
+        </div>
+
+        <button type="submit" class="submit-btn">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <div class="footer-col">
+
+        <h3><i class="fas fa-briefcase"></i> NexHire Consultancy UK</h3>
+
+        <p>Your personal career concierge for securing premium roles globally.</p>
+
+        <div class="contact-info">
+
+          <p><i class="fas fa-envelope"></i> info@nexhireconsultancy.com</p>
+
+          <p class="social-text">Follow us on our social media:</p>
+          <p class="social-links-text">
+            <a href="https://www.instagram.com/nexhireconsultancyuk/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> | 
+            <a href="https://www.linkedin.com/company/nexhireconsultancyuk/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="footer-col">
+
+        <h3><i class="fas fa-link"></i> Quick Links</h3>
+
+        <ul>
+
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+
+          <li><a href="about.html"><i class="fas fa-user"></i> About us</a></li>
+
+          <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+
+          <li><a href="testimonials.html"><i class="fas fa-star"></i> Testimonials</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-col">
+
+        <h3><i class="fas fa-book"></i> Resources</h3>
+
+        <ul>
+
+          <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+
+          <li><a href="contact.html"><i class="fas fa-phone"></i> Contact us</a></li>
+
+          <li><a href="privacy-policy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+
+          <li><a href="terms-of-service.html"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 NexHire Consultancy UK. All Rights Reserved.</p>
+    </div>
+
+  </footer>
+
